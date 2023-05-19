@@ -8,9 +8,14 @@
   <style>
   [data-background="green"] {
     background-color: lightgrey;
-  }</style>
+  }
+  [data-name="bold"] {
+font-weight: bold;
+font-size: large;
+  }
+  </style>
   <body>
-        <section>
+        <header>
 <h1>Повна версія картки викладача</h1>
   <img
     src="teacher.jpg"
@@ -18,13 +23,16 @@
     width="30%"
     height="auto"
   />
+</header>
+  <main>
+    <br>
   <table>
     <colgroup>
       <col span="1" class="background" data-background="green">
     </colgroup>
  <tr>
 <td>Повне імʼя:</td>
-<td>Іван Шевченко</td>
+<td data-name="bold">Іван Шевченко</td>
  </tr>
  <tr>
   <td>Стать:</td>
